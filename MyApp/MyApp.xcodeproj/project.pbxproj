@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76AF6C7623196AE6006C76D4 /* GlobantEmployeeProtocolsAndEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AF6C7523196AE6006C76D4 /* GlobantEmployeeProtocolsAndEnums.swift */; };
 		76D238E223181B660064CCF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D238E123181B660064CCF7 /* AppDelegate.swift */; };
-		76D238E423181B660064CCF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D238E323181B660064CCF7 /* ViewController.swift */; };
+		76D238E423181B660064CCF7 /* GlobantEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D238E323181B660064CCF7 /* GlobantEmployee.swift */; };
 		76D238E723181B660064CCF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76D238E523181B660064CCF7 /* Main.storyboard */; };
 		76D238E923181B670064CCF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76D238E823181B670064CCF7 /* Assets.xcassets */; };
 		76D238EC23181B670064CCF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76D238EA23181B670064CCF7 /* LaunchScreen.storyboard */; };
@@ -34,9 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		76AF6C7523196AE6006C76D4 /* GlobantEmployeeProtocolsAndEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobantEmployeeProtocolsAndEnums.swift; sourceTree = "<group>"; };
 		76D238DE23181B660064CCF7 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76D238E123181B660064CCF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		76D238E323181B660064CCF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76D238E323181B660064CCF7 /* GlobantEmployee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobantEmployee.swift; sourceTree = "<group>"; };
 		76D238E623181B660064CCF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76D238E823181B670064CCF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76D238EB23181B670064CCF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				76D238E123181B660064CCF7 /* AppDelegate.swift */,
-				76D238E323181B660064CCF7 /* ViewController.swift */,
+				76D238E323181B660064CCF7 /* GlobantEmployee.swift */,
+				76AF6C7523196AE6006C76D4 /* GlobantEmployeeProtocolsAndEnums.swift */,
 				76D238E523181B660064CCF7 /* Main.storyboard */,
 				76D238E823181B670064CCF7 /* Assets.xcassets */,
 				76D238EA23181B670064CCF7 /* LaunchScreen.storyboard */,
@@ -256,7 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76D238E423181B660064CCF7 /* ViewController.swift in Sources */,
+				76AF6C7623196AE6006C76D4 /* GlobantEmployeeProtocolsAndEnums.swift in Sources */,
+				76D238E423181B660064CCF7 /* GlobantEmployee.swift in Sources */,
 				76D238E223181B660064CCF7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
